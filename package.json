@@ -1,0 +1,24 @@
+{
+  "name": "deps-detective",
+  "version": "1.0.0",
+  "description": "Inspect the histories of dependencies in your project.",
+  "main": "index.js",
+  "author": "Justin Foss <jfoss124@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "semver": "^6.3.0",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  }
+}

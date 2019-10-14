@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchAndParseGitLogs should parse the git logs into a JS structure 1`] = `
+Array [
+  Object {
+    "additions": Array [
+      "    \\"react\\": \\"^15.3.2\\",",
+      "    \\"react-native\\": \\"^0.37.0\\",",
+    ],
+    "authorEmail": "justin@example.com",
+    "authorName": "Justin Foss",
+    "commit": "676f445262de5068071ae678c99d4b39df5e5739",
+    "date": "Wed, 16 Nov 2016 11:14:27 -0800",
+    "deletions": Array [
+      "    \\"react\\": \\"15.2.1\\",",
+      "    \\"react-native\\": \\"^0.31.0\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index 1ffd13746..c5764cf02 100644
+--- a/package.json
++++ b/package.json
+@@ -13,9 +13,9 @@
+     \\"base-64\\": \\"^0.1.0\\",
+     \\"lodash\\": \\"^4.16.6\\",
+     \\"moment\\": \\"^2.15.2\\",
+-    \\"react\\": \\"15.2.1\\",
++    \\"react\\": \\"^15.3.2\\",
+     \\"react-mixin\\": \\"^2.0.2\\",
+-    \\"react-native\\": \\"^0.31.0\\",
++    \\"react-native\\": \\"^0.37.0\\",
+     \\"react-native-code-push\\": \\"^1.15.1-beta\\",
+     \\"react-native-cookiemanager\\": \\"0.0.1\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+
+",
+    "message": "
+Updated project to use newest version of react native
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react\\": \\"15.2.1\\",",
+    ],
+    "authorEmail": "justin@example.com",
+    "authorName": "Justin Foss",
+    "commit": "878d4f8933bbc9db5bbc0433a269f54367e0467d",
+    "date": "Tue, 15 Nov 2016 21:07:05 -0800",
+    "deletions": Array [
+      "    \\"react\\": \\"^15.2.1\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index e1a67c08d..1ffd13746 100644
+--- a/package.json
++++ b/package.json
+@@ -13,7 +13,7 @@
+     \\"base-64\\": \\"^0.1.0\\",
+     \\"lodash\\": \\"^4.16.6\\",
+     \\"moment\\": \\"^2.15.2\\",
+-    \\"react\\": \\"^15.2.1\\",
++    \\"react\\": \\"15.2.1\\",
+     \\"react-mixin\\": \\"^2.0.2\\",
+     \\"react-native\\": \\"^0.31.0\\",
+     \\"react-native-code-push\\": \\"^1.15.1-beta\\",
+
+",
+    "message": "
+Added yarn.lock file and updated package.json to ensure we use correct version of react
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react-mixin\\": \\"^2.0.2\\",",
+    ],
+    "authorEmail": "justin@example.com",
+    "authorName": "Justin Foss",
+    "commit": "d7bae2433b7ef985f33aa3c1086bccc2d9f3b8ca",
+    "date": "Mon, 14 Nov 2016 11:23:55 -0800",
+    "deletions": Array [],
+    "diff": "
+diff --git a/package.json b/package.json
+index ec1a502a7..e1a67c08d 100644
+--- a/package.json
++++ b/package.json
+@@ -14,6 +14,7 @@
+     \\"lodash\\": \\"^4.16.6\\",
+     \\"moment\\": \\"^2.15.2\\",
+     \\"react\\": \\"^15.2.1\\",
++    \\"react-mixin\\": \\"^2.0.2\\",
+     \\"react-native\\": \\"^0.31.0\\",
+     \\"react-native-code-push\\": \\"^1.15.1-beta\\",
+     \\"react-native-cookiemanager\\": \\"0.0.1\\",
+
+",
+    "message": "
+PRODDEV-1170: Improved scrolling performance on home screen
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react\\": \\"^15.2.1\\",",
+      "    \\"react-native\\": \\"^0.31.0\\",",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "707cdc671a3517cb27d2479829c9f719f4bfb75e",
+    "date": "Tue, 23 Aug 2016 13:45:54 -0700",
+    "deletions": Array [
+      "    \\"react\\": \\"^15.1.0\\",",
+      "    \\"react-native\\": \\"^0.27.0-rc1\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index 3a1ac89b8..0c853dc2d 100644
+--- a/package.json
++++ b/package.json
+@@ -6,8 +6,8 @@
+     \\"start\\": \\"node node_modules/react-native/local-cli/cli.js start\\"
+   },
+   \\"dependencies\\": {
+-    \\"react\\": \\"^15.1.0\\",
+-    \\"react-native\\": \\"^0.27.0-rc1\\",
++    \\"react\\": \\"^15.2.1\\",
++    \\"react-native\\": \\"^0.31.0\\",
+     \\"react-native-cookiemanager\\": \\"0.0.1\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+     \\"react-native-fs\\": \\"^1.4.0\\",
+
+",
+    "message": "
+Advanced release to latest react native
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react\\": \\"^15.1.0\\",",
+      "    \\"react-native\\": \\"^0.27.0-rc1\\",",
+      "    \\"react-native-fs\\": \\"^1.4.0\\",",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "a89b89f675b3ddb08dfd716fe1475a6cd51d4ee2",
+    "date": "Mon, 13 Jun 2016 17:29:39 -0700",
+    "deletions": Array [
+      "    \\"react\\": \\"^0.14.7\\",",
+      "    \\"react-native\\": \\"^0.25.0-rc\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index 9a4bc3965..3a1ac89b8 100644
+--- a/package.json
++++ b/package.json
+@@ -6,10 +6,11 @@
+     \\"start\\": \\"node node_modules/react-native/local-cli/cli.js start\\"
+   },
+   \\"dependencies\\": {
+-    \\"react\\": \\"^0.14.7\\",
+-    \\"react-native\\": \\"^0.25.0-rc\\",
++    \\"react\\": \\"^15.1.0\\",
++    \\"react-native\\": \\"^0.27.0-rc1\\",
+     \\"react-native-cookiemanager\\": \\"0.0.1\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
++    \\"react-native-fs\\": \\"^1.4.0\\",
+     \\"react-native-simple-events\\": \\"^1.0.1\\",
+     \\"react-native-swiper\\": \\"^1.4.3\\",
+     \\"react-native-toggle\\": \\"^1.0.3\\",
+
+",
+    "message": "
+Android Release canidate 1
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react-native\\": \\"^0.25.0-rc\\",",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "d18cd3236dd3a2ea4e55570b5eda2a2966442a0f",
+    "date": "Thu, 21 Apr 2016 17:15:32 -0700",
+    "deletions": Array [
+      "    \\"react-native\\": \\"^0.23.1\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index 46fa48322..9a4bc3965 100644
+--- a/package.json
++++ b/package.json
+@@ -7,7 +7,7 @@
+   },
+   \\"dependencies\\": {
+     \\"react\\": \\"^0.14.7\\",
+-    \\"react-native\\": \\"^0.23.1\\",
++    \\"react-native\\": \\"^0.25.0-rc\\",
+     \\"react-native-cookiemanager\\": \\"0.0.1\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+     \\"react-native-simple-events\\": \\"^1.0.1\\",
+
+",
+    "message": "
+further enhancements to android app; now injects code to ensure that proper VH workaround is activated, added icons, updated title
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react-native\\": \\"^0.23.1\\",",
+      "    \\"react-native-cookiemanager\\": \\"0.0.1\\",",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael",
+    "commit": "80c7918e9654899e1ef51721707cf345de87e4ce",
+    "date": "Tue, 19 Apr 2016 17:11:54 -0700",
+    "deletions": Array [
+      "    \\"react-native\\": \\"^0.22.2\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index e85a5ec02..46fa48322 100644
+--- a/package.json
++++ b/package.json
+@@ -7,7 +7,8 @@
+   },
+   \\"dependencies\\": {
+     \\"react\\": \\"^0.14.7\\",
+-    \\"react-native\\": \\"^0.22.2\\",
++    \\"react-native\\": \\"^0.23.1\\",
++    \\"react-native-cookiemanager\\": \\"0.0.1\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+     \\"react-native-simple-events\\": \\"^1.0.1\\",
+     \\"react-native-swiper\\": \\"^1.4.3\\",
+
+",
+    "message": "
+implemented initial working android app
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react-native-swiper\\": \\"^1.4.3\\",",
+      "    \\"react-native-toggle\\": \\"^1.0.3\\",",
+      "    \\"react-timer-mixin\\": \\"^0.13.3\\"",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "8a4f3dbb437e2c4c7f74dbde552f65e38ad707c0",
+    "date": "Thu, 24 Mar 2016 18:02:16 -0700",
+    "deletions": Array [
+      "    \\"react-native-toggle\\": \\"^1.0.3\\"",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index 6ca32cc25..e85a5ec02 100644
+--- a/package.json
++++ b/package.json
+@@ -10,6 +10,8 @@
+     \\"react-native\\": \\"^0.22.2\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+     \\"react-native-simple-events\\": \\"^1.0.1\\",
+-    \\"react-native-toggle\\": \\"^1.0.3\\"
++    \\"react-native-swiper\\": \\"^1.4.3\\",
++    \\"react-native-toggle\\": \\"^1.0.3\\",
++    \\"react-timer-mixin\\": \\"^0.13.3\\"
+   }
+ }
+
+",
+    "message": "
+enhanced animations, layout and systematic structure
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react\\": \\"^0.14.7\\",",
+      "    \\"react-native\\": \\"^0.22.2\\",",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "94e764bbac2972c69a8992a8c165b813b43cca41",
+    "date": "Wed, 23 Mar 2016 16:57:47 -0700",
+    "deletions": Array [
+      "    \\"react-native\\": \\"^0.19.0\\",",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index 8f119b93e..6ca32cc25 100644
+--- a/package.json
++++ b/package.json
+@@ -6,7 +6,8 @@
+     \\"start\\": \\"node node_modules/react-native/local-cli/cli.js start\\"
+   },
+   \\"dependencies\\": {
+-    \\"react-native\\": \\"^0.19.0\\",
++    \\"react\\": \\"^0.14.7\\",
++    \\"react-native\\": \\"^0.22.2\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+     \\"react-native-simple-events\\": \\"^1.0.1\\",
+     \\"react-native-toggle\\": \\"^1.0.3\\"
+
+",
+    "message": "
+WIP for hybrid app
+
+",
+  },
+  Object {
+    "additions": Array [
+      "    \\"react-native-simple-events\\": \\"^1.0.1\\",",
+      "    \\"react-native-toggle\\": \\"^1.0.3\\"",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "a13110f30d4f5a4cbdf132051bc3746b119c3535",
+    "date": "Thu, 4 Feb 2016 11:25:50 -0800",
+    "deletions": Array [
+      "    \\"react-native-simple-events\\": \\"^1.0.1\\"",
+    ],
+    "diff": "
+diff --git a/package.json b/package.json
+index c3593a74f..8f119b93e 100644
+--- a/package.json
++++ b/package.json
+@@ -8,6 +8,7 @@
+   \\"dependencies\\": {
+     \\"react-native\\": \\"^0.19.0\\",
+     \\"react-native-cookies\\": \\"0.0.3\\",
+-    \\"react-native-simple-events\\": \\"^1.0.1\\"
++    \\"react-native-simple-events\\": \\"^1.0.1\\",
++    \\"react-native-toggle\\": \\"^1.0.3\\"
+   }
+ }
+
+",
+    "message": "
+Finishing touch on login in screen, recover password flow, rememeber me. Requires a minor server side change to support seemless sign on with the wrapped webview
+
+",
+  },
+  Object {
+    "additions": Array [
+      "{",
+      "  \\"name\\": \\"IOSReact\\",",
+      "  \\"version\\": \\"0.0.1\\",",
+      "  \\"private\\": true,",
+      "  \\"scripts\\": {",
+      "    \\"start\\": \\"node node_modules/react-native/local-cli/cli.js start\\"",
+      "  },",
+      "  \\"dependencies\\": {",
+      "    \\"react-native\\": \\"^0.19.0\\",",
+      "    \\"react-native-cookies\\": \\"0.0.3\\",",
+      "    \\"react-native-simple-events\\": \\"^1.0.1\\"",
+      "  }",
+      "}",
+    ],
+    "authorEmail": "michael@example.com",
+    "authorName": "Michael Doe",
+    "commit": "ddbd87e7e7acee7f07ca221a87b14f3f7b66a18b",
+    "date": "Tue, 2 Feb 2016 18:23:10 -0800",
+    "deletions": Array [],
+    "diff": "
+diff --git a/package.json b/package.json
+new file mode 100644
+index 000000000..c3593a74f
+--- /dev/null
++++ b/package.json
+@@ -0,0 +1,13 @@
++{
++  \\"name\\": \\"IOSReact\\",
++  \\"version\\": \\"0.0.1\\",
++  \\"private\\": true,
++  \\"scripts\\": {
++    \\"start\\": \\"node node_modules/react-native/local-cli/cli.js start\\"
++  },
++  \\"dependencies\\": {
++    \\"react-native\\": \\"^0.19.0\\",
++    \\"react-native-cookies\\": \\"0.0.3\\",
++    \\"react-native-simple-events\\": \\"^1.0.1\\"
++  }
++}",
+    "message": "
+IOS Wrapper initial commit
+
+",
+  },
+]
+`;
