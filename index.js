@@ -3,6 +3,7 @@ const program = require('commander')
 
 const { fetchAndParseGitLogs } = require('./lib/git-parsers')
 const { parsePackageJSONChange } = require('./lib/dep-file-parsers')
+const { cliTableReporter } = require('./lib/reporters')
 
 const changeDetectors = {
   'package.json': parsePackageJSONChange,
@@ -26,7 +27,8 @@ async function main() {
   const changes = logs
     .map(log => depFileParser(log, program.dep))
     .filter(Boolean)
-  console.log(changes)
+
+  cliTableReporter(program.dep, changes)
 }
 
 main()
