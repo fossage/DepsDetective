@@ -2,11 +2,15 @@ const path = require('path')
 const program = require('commander')
 
 const { fetchAndParseGitLogs } = require('./lib/git-parsers')
-const { parsePackageJSONChange } = require('./lib/dep-file-parsers')
+const {
+  parsePackageJSONChange,
+  parsePodfileChange,
+} = require('./lib/dep-file-parsers')
 const { cliTableReporter } = require('./lib/reporters')
 
 const changeDetectors = {
   'package.json': parsePackageJSONChange,
+  Podfile: parsePodfileChange,
 }
 
 async function main() {
